@@ -1,2 +1,2 @@
-# App To Azure In 60 Minutes Sample Code
+# Fully Integrating Application Insights in ASP.NET Sample Code
 Repository for the talk "App to Azure in 60 Minutes"
