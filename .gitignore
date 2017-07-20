@@ -138,8 +138,11 @@ DocProject/Help/html
 publish/
 
 # Publish Web Output
-*.[Pp]ublish.xml
+# 2017-07-02: Include because those are SSDT publish profiles
+#*.[Pp]ublish.xml
 *.azurePubxml
+# 2017-07-02: Exclude
+*.jfm
 # TODO: Comment the next line if you want to checkin your web deploy settings
 # but database connection strings (with potential passwords) will be unencrypted
 *.pubxml

@@ -26,7 +26,7 @@ namespace ApiClient
 			{
 				using (var client = new HttpClient())
 				{
-					client.BaseAddress = new Uri("http://IntegrateApplicationInsights-Test.azurewebsites.net/");
+					client.BaseAddress = new Uri("https://IntegrateApplicationInsights-Test.azurewebsites.net/");
 					client.DefaultRequestHeaders.Accept.Clear();
 					client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 

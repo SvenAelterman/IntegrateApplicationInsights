@@ -15,14 +15,14 @@ namespace WebApp.Controllers
 
 		public ActionResult About()
 		{
-			ViewBag.Message = "App to Azure in 60 Minutes";
+			ViewBag.Message = "Integrate Application Insights";
 
 			return View();
 		}
 
 		public ActionResult Contact()
 		{
-			ViewBag.Message = "App to Azure in 60 Minutes";
+			ViewBag.Message = "Integrate Application Insights";
 
 			return View();
 		}
